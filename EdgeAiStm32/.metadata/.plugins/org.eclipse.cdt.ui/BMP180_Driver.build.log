@@ -1,0 +1,9 @@
+09:33:19 **** Clean-only build of configuration Debug for project BMP180_Driver ****
+make -j16 clean 
+rm -rf ./Startup/startup_stm32l476rgtx.d ./Startup/startup_stm32l476rgtx.o
+rm -rf ./Src/BMP180.cyclo ./Src/BMP180.d ./Src/BMP180.o ./Src/BMP180.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf BMP180_Driver.elf BMP180_Driver.list BMP180_Driver.map default.size.stdout
+ 
+
+09:33:19 Build Finished. 0 errors, 0 warnings. (took 746ms)
+

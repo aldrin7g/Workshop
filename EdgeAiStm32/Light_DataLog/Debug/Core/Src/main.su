@@ -1,0 +1,11 @@
+../Core/Inc/bh1750.h:20:6:BH1750_Init	32	static
+../Core/Inc/bh1750.h:26:7:BH1750_ReadLux	32	static
+../Core/Src/main.c:74:5:main	8	static
+../Core/Src/main.c:124:6:SystemClock_Config	96	static
+../Core/Src/main.c:174:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:222:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:257:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:292:6:fill_light_buffer	16	static
+../Core/Src/main.c:300:6:Log	16	static
+../Core/Src/main.c:308:5:__io_putchar	16	static
+../Core/Src/main.c:318:6:Error_Handler	4	static,ignoring_inline_asm
